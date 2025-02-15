@@ -1,6 +1,6 @@
 <div style="display: flex;">
 <div style="flex: 1; padding-right: 10px;">
-	<img src="/images/me_no_bg_big_small.png" style="width: 70%; object-fit:cover; clip-path: circle(50%); -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);"/>
+	<img src="{{ .Site.BaseURL }}/images/me_no_bg_big_small.png" style="width: 70%; object-fit:cover; clip-path: circle(50%); -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%); mask-image: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);"/>
 </div>
 <div style="flex: 1; padding-left: 10px;">
 	<h1> Hi! I'm Lior </h1>
