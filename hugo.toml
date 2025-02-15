@@ -1,4 +1,5 @@
-baseURL = "https://liorz.github.io/blog/"
+#baseURL = "https://liorz.github.io/blog/"
+baseURL = "http://localhost:1313"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true
