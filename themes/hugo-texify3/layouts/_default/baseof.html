@@ -8,8 +8,15 @@
   <!-- author -->
   <meta name="author" content="{{ .Site.Author.name }}">
 
+  <!-- google analytics -->
+
+  {{ template "_internal/google_analytics.html" . }}
+
+
+
   <!-- description -->
   {{ if .Description }}
+
   <meta name="description" content="{{ .Description }}">
   {{ else if and .IsPage .Summary }}
   <meta name="description" content="{{ .Summary }}">
@@ -92,10 +99,6 @@
   {{ range .Site.Params.customJS }}
   <script src="{{ . | absURL }}"></script>
   {{ end }}
-
-  <!-- google analytics -->
-  {{ template "_internal/google_analytics.html" . }}
-
 </body>
 
 </html>
