@@ -1,7 +1,7 @@
 +++
 date = '2025-02-27T10:55:31+02:00'
-draft = true
-title = 'Moneyball Moment for Bioproduction'
+draft = false 
+title = 'The Moneyball Moment for Bioproduction'
 +++
 
 # **Moneyball Moment for Bioproduction**
