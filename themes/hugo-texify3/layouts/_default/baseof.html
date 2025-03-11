@@ -11,8 +11,8 @@
   <!-- google analytics -->
 
   {{ template "_internal/google_analytics.html" . }}
-
-
+  {{ .Site.Params.mailerLite.code | safeHTML }}
+  
 
   <!-- description -->
   {{ if .Description }}
